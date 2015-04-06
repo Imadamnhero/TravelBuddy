@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include layout="@layout/row_item_deleting" />
+
+    <FrameLayout
+        android:id="@+id/front"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_row_gradient"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <sdc.ui.view.PercentCycleView
+                android:id="@+id/cycle"
+                android:layout_width="@dimen/height_of_modelbutton"
+                android:layout_height="@dimen/height_of_modelbutton"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:text="Miami"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/text_gray_color"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/clickview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4CC4C2BE-D057-45FC-AC61-970A55EB62C0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Fun Spot App</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6CCDB7D8-2A0D-4DE0-B45D-CAA23C19550C</key>
+		<string>http://valeteck.repositoryhosting.com/svn/valeteck_funspotiphone</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Fun Spot App.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6CCDB7D8-2A0D-4DE0-B45D-CAA23C19550C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>6CCDB7D8-2A0D-4DE0-B45D-CAA23C19550C</key>
+		<string>http://valeteck.repositoryhosting.com/svn/valeteck_funspotiphone</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://valeteck.repositoryhosting.com/svn/valeteck_funspotiphone/Fun%20Spot%20App.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6CCDB7D8-2A0D-4DE0-B45D-CAA23C19550C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6CCDB7D8-2A0D-4DE0-B45D-CAA23C19550C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Fun Spot</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/title_trip" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_frame"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tv1"
+            style="@style/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:text="@string/tv_send_mail" />
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:background="@drawable/bg_edittext"
+            android:hint="@string/hint_mail_address"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp" />
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/ButtonGreenTravel"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_of_smallbutton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:drawableLeft="@drawable/icon_send"
+            android:text="@string/btn_send"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et1"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="@string/tv_tell_friend"
+            android:textColor="@color/text_white_color"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_frame"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tv2"
+            style="@style/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:text="@string/tv_invite_fr" />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:background="@drawable/bg_edittext"
+            android:hint="@string/hint_typing_mode"
+            android:paddingLeft="10dp" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/ButtonGreenTravel"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_of_smallbutton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:drawableLeft="@drawable/icon_fly"
+            android:text="@string/btn_invite"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et2"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="@string/tv_invite_to_join"
+            android:textColor="@color/text_white_color"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</LinearLayout>

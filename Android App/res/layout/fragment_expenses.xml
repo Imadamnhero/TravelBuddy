@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/title_trip" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnadd"
+                style="@style/ButtonGreenTravel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:background="@drawable/btn_add_expenses"
+                android:drawableLeft="@drawable/icon_add_orange"
+                android:drawablePadding="5dp"
+                android:padding="5dp"
+                android:text="@string/btn_add_new_expenses" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/bg_frame"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/title_budget"
+                    style="@style/TextViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/tv_budget" />
+
+                <TextView
+                    android:id="@+id/tv_budget"
+                    style="@style/TextViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/title_budget"
+                    android:layout_toRightOf="@id/title_budget"
+                    android:text=" $ 2200"
+                    android:textColor="@color/text_green_color" />
+
+                <ProgressBar
+                    android:id="@+id/progress_bar"
+                    style="@style/ProgressBarTravel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_budget"
+                    android:layout_marginTop="10dp"
+                    android:max="100"
+                    android:progress="40" />
+
+                <TextView
+                    android:id="@+id/tv_spent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/progress_bar"
+                    android:layout_below="@id/progress_bar"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:text="$ 822.32"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/text_white_color"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/progress_bar"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/tv_spent"
+                    android:paddingLeft="3dp"
+                    android:text="@string/tv_spent"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/orange"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvremain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@id/progress_bar"
+                    android:layout_below="@id/progress_bar"
+                    android:layout_marginTop="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/tv_remaining"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/text_green_color"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_remain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/progress_bar"
+                    android:layout_marginTop="5dp"
+                    android:layout_toLeftOf="@id/tvremain"
+                    android:paddingRight="3dp"
+                    android:text="$ 1000.32"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/text_white_color"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/bg_frame" >
+
+                <sdc.ui.view.ChartPieView
+                    android:id="@+id/chart_pie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="20dp" />
+
+                <!-- <ExpandableListView -->
+                <!-- android:id="@+id/expandableListView1" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_below="@id/chart_pie" -->
+                <!-- android:childDivider="@null" -->
+                <!-- android:childIndicator="@null" -->
+                <!-- android:divider="@null" -->
+                <!-- android:groupIndicator="@null" /> -->
+
+                <LinearLayout
+                    android:id="@+id/expandableLv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/chart_pie"
+                    android:orientation="vertical" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

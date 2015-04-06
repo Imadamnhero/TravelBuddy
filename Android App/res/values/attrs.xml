@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <attr name="sizeScaleType">
+        <enum name="width" value="0" />
+        <enum name="height" value="1" />
+    </attr>
+
+    <declare-styleable name="ScaledImageView">
+        <attr name="sizeScaleType" />
+        <attr name="scaleWidth" format="float" />
+        <attr name="scaleHeight" format="float" />
+    </declare-styleable>
+
+</resources>

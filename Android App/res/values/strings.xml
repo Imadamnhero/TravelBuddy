@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Travel Buddy</string>
+    <string name="title_menu">MENU</string>
+    <string name="title_logout">LOG OUT</string>
+
+    <string-array name="arr_menu">
+        <item name="home">HOME</item>
+        <item name="account">ACCOUNT</item>
+        <item name="add_photo">ADD PHOTO</item>
+        <item name="take_photo">TAKE PHOTO</item>
+        <item name="note">NOTE</item>
+        <item name="expenses">EXPENSES</item>
+        <item name="packing">PACKING</item>
+        <item name="Alert">ALERT</item>
+        <item name="slideshow">SLIDESHOW</item>
+        <item name="group">GROUP</item>
+        <item name="receipts">RECEIPTS</item>
+    </string-array>
+
+    <!-- hint -->
+    <string name="hint_name"><i>Name</i></string>
+    <string name="hint_mail"><i>E-mail</i></string>
+    <string name="hint_pass"><i>Password</i></string>
+    <string name="hint_cur_pass"><i>Current Password</i></string>
+    <string name="hint_new_pass"><i>New Password</i></string>
+    <string name="hint_confirm_pass"><i>Confirm New Password</i></string>
+    <string name="hint_addphoto"><i>Describe your photo</i></string>
+    <string name="hint_description"><i>Description\n\n\n\n</i></string>
+    <string name="hint_dollar"><i>$</i></string>
+    <string name="hint_alert"><i>Type\n\n\n\n</i></string>
+    <string name="hint_type"><i>Type</i></string>
+    <string name="hint_type_newitem"><i>Type new item</i></string>
+    <string name="hint_recipient"><i>Receiver\'s email address</i></string>
+    <string name="hint_mail_address"><i>yourmail@travel.com</i></string>
+    <string name="hint_typing_mode"><i>Typing mode</i></string>
+    <string name="hint_enter_city"><i>San Francisco</i></string>
+    <string name="hint_enter_name"><i>Sophia</i></string>
+    <string name="hint_enter_date"><i>7-12-2014</i></string>
+    <string name="hint_enter_budget"><i>$ 2000</i></string>
+    <string name="hint_title"><i>Title</i></string>
+    <string name="hint_content"><i>Content</i></string>
+    <string name="hint_forgot_pass"><i>Type your email</i></string>
+    <string name="hint_trip_name"><i>Trip name</i></string>
+
+    <!-- textview -->
+    <string name="tv_remember_pass">Remember password</string>
+    <string name="tv_edit_acc">Edit Account</string>
+    <string name="tv_addphoto">Label (40 characters)</string>
+    <string name="tv_notes">Notes</string>
+    <string name="tv_enter_amount">Enter Amount</string>
+    <string name="tv_budget">Budget: </string>
+    <string name="tv_addbudget">Add Budget </string>
+    <string name="tv_spent">spent</string>
+    <string name="tv_remaining">remaining</string>
+    <string name="tv_alert">Write Alert</string>
+    <string name="tv_sendall">Send to everyone</string>
+    <string name="tv_group">Group</string>
+    <string name="tv_send_myself">Send to myself</string>
+    <string name="tv_start">Start</string>
+    <string name="tv_packing_start">Start by selecting a list or create your own. \nYou can edit lists.</string>
+    <string name="tv_packing_premade">Choose from pre-made lists</string>
+    <string name="tv_packing_additem">Add Item</string>
+    <string name="tv_packing_listtitle">List Title</string>
+    <string name="tv_packing_listitem">List Item</string>
+    <string name="tv_packing_swiftleft">(Swift left to delete)</string>
+    <string name="tv_login">Login</string>
+    <string name="tv_have_acc">Already have an account?</string>
+    <string name="tv_link_signin"><u>Sign In</u></string>
+    <string name="tv_have_no_acc">Don\'t have a Travel Buddy account?</string>
+    <string name="tv_link_signup"><u>Sign Up</u></string>
+    <string name="tv_create_acc">Create Account</string>
+    <string name="tv_create_slideshow">Create Slideshow</string>
+    <string name="tv_detail_create_acc">Travel Buddy has some really fun features, and because of these features we need you to create a free account, just so the app can perform its functions.</string>
+    <string name="tv_tell_friend">Tell your friends to get the app.</string>
+    <string name="tv_invite_to_join">If they have the app, they will receive an invitation to join.</string>
+    <string name="tv_send_mail">Send E-mail</string>
+    <string name="tv_invite_fr">Invite Friend</string>
+    <string name="tv_about">About</string>
+    <string name="tv_detail_about">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="tv_tripname">Trip Name</string>
+    <string name="tv_input_name">Input Your Name</string>
+    <string name="tv_tripdate">Dates</string>
+    <string name="tv_mybudget">My Budget</string>
+    <string name="tv_from">from: </string>
+    <string name="tv_to">to: </string>
+    <string name="tv_your_slideshow">Your Slideshow Photos:</string>
+    <string name="tv_group_slideshow">Group Slideshow Photos:</string>
+    <string name="tv_detail_receipts">Email the receipts you took photos of to yourself for your records.</string>
+    <string name="tv_detail_slideshow">Create a Slideshow from your trip photos - email or push to Facebook.</string>
+    <string name="tv_forgot_password">Forgot your password?</string>
+    <string name="txt_choose_crop">Choose Crop Image App</string>
+    <string name="tv_no_receipt">No receipt</string>
+    <string name="tv_addnote">Add Note</string>
+    <string name="tv_edit_category">Edit Category</string>
+    <string name="tv_add_category">Add Category</string>
+    <string name="tv_edit_tripname">Change trip name</string>
+    <string name="tv_loading_video">Loading Data ...</string>
+
+    <!-- button -->
+    <string name="btn_save">Save</string>
+    <string name="btn_add">Add\ </string>
+    <string name="btn_additem">Add Item\ </string>
+    <string name="btn_savelist">Save List</string>
+    <string name="btn_add_trip">Add Trip</string>
+    <string name="btn_send_alert">Send Alert</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_invite">Invite</string>
+    <string name="btn_save_photo">Save Photo</string>
+    <string name="btn_add_photo">Add Photo</string>
+    <string name="btn_save_addnew">Add New</string>
+    <string name="btn_add_new_expenses">Add New Expenses</string>
+    <string name="btn_add_new_expenses_category">Add New Category</string>
+    <string name="btn_add_expenses">Add Expenses</string>
+    <string name="btn_add_new_receipt">Add New Receipt</string>
+    <string name="btn_send_receipt">Send Receipts</string>
+    <string name="btn_packing_custom">Custom List</string>
+    <string name="btn_packing_new">New List</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_create_acc">Create</string>
+    <string name="btn_send_slideshow">Send Slideshow</string>
+    <string name="btn_send_email">Send to Email</string>
+    <string name="btn_endtrip">End Trip</string>
+    <string name="title_activity_custom_dialog">CustomDialog</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+    <string name="btn_download">Download</string>
+    <string name="btn_back">Back</string>
+    <string name="tab_send">Send Slideshow</string>
+    <string name="tab_slide">Create</string>
+    <string name="tab_preview">Review</string>
+    <string name="my_slideshow">My slideshows</string>
+    <string name="btn_join">Join trip</string>
+    <string name="btn_decline">Decline</string>
+
+    <!-- toast notification -->
+    <string name="not_addtrip_yet">You have not added trip yet</string>
+    <string name="txt_custom_single_choice">CustomSingleChoiceDialog</string>
+    <string name="txt_cannot_find">Can not find this file</string>
+    <string name="txt_write_description">Describle must have less than 40 and more than 0 character</string>
+    <string name="txt_add_photo">Please add a photo</string>
+    <string name="txt_wait_create_slide">Please wait, your slideshow is being created.</string>
+    <string name="txt_save_photo">Your photo was saved.</string>
+    <string name="txt_not_create_slide">You have not created any slideshows</string>
+    <string name="toast_save_photo">Your photo was saved</string>
+    <string name="toast_save_photo_slideshow">Your photo was saved successfully into SlideShow</string>
+    <string name="toast_alert">Your alert was sent</string>
+    <string name="toast_invite">An invitation was sent to \ </string>
+    <string name="toast_sendmail">An invitation e-mail was sent to \ </string>
+    <string name="toast_invalidate_sendmail">Invalid email format. Please input valid email</string>
+    <string name="toast_editacc">Account information has been changed.</string>
+    <string name="toast_receipt_nophoto">You have no receipt to send.</string>
+    <string name="toast_receipt_nomail">Please input an email address.</string>
+    <string name="toast_receipt_sent">All receipts have been sent.</string>
+    <string name="toast_alert_error">Please type an alert.</string>
+    <string name="toast_alert_error_noone">Please choose someone to send your alert.</string>
+    <string name="toast_no_invite">Please input your friend\'s name.</string>
+    <string name="toast_blank_description">Please input your description</string>
+    <string name="toast_wrong_pass">Current password is incorrect</string>
+    <string name="toast_problem_network">Cannot connect to server. Please check network connection!</string>
+    <string name="toast_wrong_input">Please type email and password correctly</string>
+    <string name="toast_miss_info">Please input information correctly</string>
+    <string name="toast_blank_mail">Please input email</string>
+    <string name="toast_blank_name">Please input name</string>
+    <string name="toast_blank_pass">Please input password</string>
+    <string name="toast_blank_current_pass">Please enter your current password</string>
+    <string name="toast_blank_avatar">Please upload avatar</string>
+    <string name="toast_invalid_name">Please input valid name</string>
+    <string name="toast_invalid_mail">Invalid email format. Please input valid email!</string>
+    <string name="toast_invalid_pass"> Password must contain at least 1 character</string>
+    <string name="toast_blank_newpass">Please input new password</string>
+    <string name="toast_blank_confirmpass">Please input confirm password</string>
+    <string name="toast_wrong_confirm_pass">Confirm password did not match</string>
+    <string name="toast_uncaught_prob">Something was wrong, please try again!</string>
+    <string name="toast_blank_date">Please input date of trip</string>
+    <string name="toast_blank_budget">Please input your budget</string>
+    <string name="toast_invalid_budget">Please input valid budget</string>
+    <string name="toast_invalid_date">The end date must be later than start date</string>
+    <string name="toast_invalid_titlepacking">Please input packing title</string>
+    <string name="toast_syncing_packing">Synchronizing items of this packing. Please wait...</string>
+    <string name="toast_invalid_addnote">Please input all data</string>
+    <string name="toast_exist_addnote">This category name is exist</string>
+    <string name="toast_valid_createvideo">Please choose at least 2 photos to create video</string>
+    <string name="toast_invalid_audio">Audio can\'t be decoded. Please choose another!</string>
+    <string name="toast_invalid_additem">Please input valid item!</string>
+    <string name="toast_blank_tripname">Please input name!</string>
+    <string name="toast_invalid_tripname">Please input valid name!</string>
+    <string name="toast_comming_soon">Coming soon ...</string>
+    <string name="toast_create_first">Please create video first!</string>
+    <string name="toast_download_success">File saved to %1$s</string>
+    <string name="toast_download_fail">Unable to download video, please try again!</string>
+    <string name="toast_accepted_invitation">%1$s accepted your invitation</string>
+    <string name="toast_declined_invitation">%1$s declined your invitation</string>
+    <string name="toast_end_trip_owner">%1$s has just ended trip "%2$s"</string>
+
+    <!-- dialog -->
+    <string name="endtrip_title">End Trip</string>
+    <string name="endtrip_content">Are you sure you want to end this trip?</string>
+    <string name="logout_content">Are you sure you want to log out?</string>
+    <string name="logout_title">Log out</string>
+    <string name="txt_delete_category_title">Remove Category</string>
+    <string name="txt_delete_category_msg">Are you sure you want to delete this category?</string>
+    <string name="choose_picture_title">Travel Buddy</string>
+    <string name="choose_picture_item1">Take photo</string>
+    <string name="choose_picture_item2">Select image from gallery</string>
+    <string name="title_activity_custom_single_choice_dialog">Custom Single Choice Dialog</string>
+    <string name="txt_confirm_delete_photo">Are you sure you want to delete this photo?</string>
+    <string name="choose_action_title">Slideshow has been created.</string>
+    <string name="choose_action_item1">Preview your Slideshow</string>
+    <string name="choose_action_item2">Send to Email</string>
+    <string name="choose_action_item3">Send to Facebook</string>
+    <string name="delete_photo">Delete Photo</string>
+    <string name="content_delete_photo">Are you sure you want to delete this photo?</string>
+    <string name="save_list">Save List</string>
+    <string name="save_list_content">Are you sure you want to save this list?</string>
+    <string name="cancel_action">Are you sure you want to cancel?</string>
+    <string name="confirm_send_alert">Are you sure you want to send this alert?</string>
+    <string name="wait_in_sec">Please wait a moment ...</string>
+    <string name="title_addtrip">Adding trip</string>
+    <string name="title_deltrip">Deleting trip</string>
+    <string name="loading">Loading ...</string>
+    <string name="title_sending_mail">Sending email</string>
+    <string name="title_update_all">Synchronize Data</string>
+    <string name="title_add_expense">Adding Expense</string>
+    <string name="title_load_premadepack">Loading data of premade packages</string>
+    <string name="title_send_mail_invite">Sending email invitation</string>
+    <string name="title_send_invite">Sending invitation</string>
+    <string name="content_create_video">Depends on size of your Slideshow, it can take a few minutes</string>
+    <string name="title_create_video">Creating your Slideshow</string>
+    <string name="content_preprocess">Preprocess your images</string>
+    <string name="title_send_receipt">Sending receipt</string>
+    <string name="title_download_video">Downloading your Slideshow</string>
+
+    <!-- error -->
+    <string name="err_open_camera">Cannot open camera</string>
+    <string name="err_open_gallery">Cannot open gallery</string>
+    <!-- email -->
+
+    <string name="subject_slideshow">%1$s Slideshow</string>
+    <string name="content_slideshow_link">I created a video for my %1$s trip. Watch it here &lt;br/>&lt;a href=\"%2$s\">%2$s&lt;/a></string>
+    <string name="content_slideshow_attach">I created Slideshow from %1$s\'s photos</string>
+    <string name="description_slideshow_fb">I created an video from photos which i have in %1$s. Watch it now!</string>
+    <string name="menu_delete">Delete this slideshow</string>
+    <string name="menu_share">Share this slideshow</string>
+    <string name="txt_share_dialog">Share uploaded Slideshow</string>
+    <string name="txt_no_photo">You don\'t have any photo.\nAdd new to create Slideshow</string>
+    <string name="txt_instruction_slideshow">Tap on upload button to sychronize your photos</string>
+    <string name="txt_no_synchronized_photo">You don\'t have any synchronized photo</string>
+    <string name="txt_no_instruction_send_receipt">Select your photos to send</string>
+    <string name="txt_instruction_create_slideshow">Select the images you want and select a song from your device song library and then click Play.</string>
+    <string name="txt_instruction_download_slideshow">Your SlideShow has been created.\nTap on download button to store it into your device or select photos and create again</string>
+     <string name="txt_instruction_save_slideshow">SlideShow has been created.\nTap on download button to save it into your SlideShows</string>
+    <string name="txt_instruction_my_slideshow">Long press on your slideshow to display action list</string>
+    <string name="msg_join_trip">If you have a trip currently in progress, this will delete that information and you will be joined into %1$s.</string>
+    <string name="msg_invite_trip">%1$s has invited you to join their trip %2$s. Would you like to join %3$s?</string>
+    <string name="msg_invite_trip2">%1$s has invited you to join their trip %2$s</string>
+
+    <string-array name="arr_share_slideshow">
+        <item>Share facebook</item>
+        <item>Share email</item>
+    </string-array>
+    <string-array name="arr_share_slideshow_ic">
+        <item>ic_facebook</item>
+        <item>ic_share</item>
+    </string-array>
+
+    <string name="fb_app_id">399659306857923</string>
+
+</resources>

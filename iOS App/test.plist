@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <PlaceApplicationGetTraductionFileResponse xmlns="http://tempuri.org/">
+            <PlaceApplicationGetTraductionFileResult>
+                <xs:schema xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+                    <xs:element name="root" msdata:IsDataSet="true" msdata:MainDataTable="result" msdata:UseCurrentLocale="true">
+                        <xs:complexType>
+                            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                <xs:element name="result">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="value" type="xs:string" minOccurs="0" msdata:Ordinal="0"/>
+                                        </xs:sequence>
+                                        <xs:attribute name="name" type="xs:string"/>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:choice>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:schema>
+                <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+                    <root xmlns="">
+                        <result diffgr:id="result1" msdata:rowOrder="0" diffgr:hasChanges="inserted" name="footer1">
+                            <value>Free Apps by WikiFuncom</value>
+                        </result>
+                        <result diffgr:id="result2" msdata:rowOrder="1" diffgr:hasChanges="inserted" name="footer3">
+                            <value>Powered by Wikifun.com</value>
+                        </result>
+                        <result diffgr:id="result3" msdata:rowOrder="2" diffgr:hasChanges="inserted" name="app_need_update">
+                            <value>Update the application clic here</value>
+                        </result>
+                        <result diffgr:id="result4" msdata:rowOrder="3" diffgr:hasChanges="inserted" name="menu_event">
+                            <value>Events</value>
+                        </result>
+                        <result diffgr:id="result5" msdata:rowOrder="4" diffgr:hasChanges="inserted" name="menu_contact">
+                            <value>Contact Us</value>
+                        </result>
+                        <result diffgr:id="result6" msdata:rowOrder="5" diffgr:hasChanges="inserted" name="menu_location">
+                            <value>Location</value>
+                        </result>
+                        <result diffgr:id="result7" msdata:rowOrder="6" diffgr:hasChanges="inserted" name="menu_discount_coupon">
+                            <value>Discount Coupon</value>
+                        </result>
+                        <result diffgr:id="result8" msdata:rowOrder="7" diffgr:hasChanges="inserted" name="menu_store_default">
+                            <value>Store</value>
+                        </result>
+                        <result diffgr:id="result9" msdata:rowOrder="8" diffgr:hasChanges="inserted" name="view_gallery">
+                            <value>View gallery</value>
+                        </result>
+                        <result diffgr:id="result10" msdata:rowOrder="9" diffgr:hasChanges="inserted" name="contact_us">
+                            <value>Contact Us</value>
+                        </result>
+                        <result diffgr:id="result11" msdata:rowOrder="10" diffgr:hasChanges="inserted" name="book">
+                            <value>Book</value>
+                        </result>
+                        <result diffgr:id="result12" msdata:rowOrder="11" diffgr:hasChanges="inserted" name="call">
+                            <value>Call</value>
+                        </result>
+                        <result diffgr:id="result13" msdata:rowOrder="12" diffgr:hasChanges="inserted" name="my_answer">
+                            <value>My answer</value>
+                        </result>
+                        <result diffgr:id="result14" msdata:rowOrder="13" diffgr:hasChanges="inserted" name="my_email">
+                            <value>My mail</value>
+                        </result>
+                        <result diffgr:id="result15" msdata:rowOrder="14" diffgr:hasChanges="inserted" name="send">
+                            <value>Send</value>
+                        </result>
+                        <result diffgr:id="result16" msdata:rowOrder="15" diffgr:hasChanges="inserted" name="people">
+                            <value>People</value>
+                        </result>
+                        <result diffgr:id="result17" msdata:rowOrder="16" diffgr:hasChanges="inserted" name="date">
+                            <value>Date</value>
+                        </result>
+                        <result diffgr:id="result18" msdata:rowOrder="17" diffgr:hasChanges="inserted" name="time">
+                            <value>Time</value>
+                        </result>
+                        <result diffgr:id="result19" msdata:rowOrder="18" diffgr:hasChanges="inserted" name="phone">
+                            <value>Phone</value>
+                        </result>
+                        <result diffgr:id="result20" msdata:rowOrder="19" diffgr:hasChanges="inserted" name="versus">
+                            <value>Versus</value>
+                        </result>
+                        <result diffgr:id="result21" msdata:rowOrder="20" diffgr:hasChanges="inserted" name="description">
+                            <value>Description</value>
+                        </result>
+                        <result diffgr:id="result22" msdata:rowOrder="21" diffgr:hasChanges="inserted" name="terme_use">
+                            <value>Terme of use</value>
+                        </result>
+                        <result diffgr:id="result23" msdata:rowOrder="22" diffgr:hasChanges="inserted" name="from">
+                            <value>From</value>
+                        </result>
+                        <result diffgr:id="result24" msdata:rowOrder="23" diffgr:hasChanges="inserted" name="from">
+                            <value>From</value>
+                        </result>
+                        <result diffgr:id="result25" msdata:rowOrder="24" diffgr:hasChanges="inserted" name="to">
+                            <value>To</value>
+                        </result>
+                        <result diffgr:id="result26" msdata:rowOrder="25" diffgr:hasChanges="inserted" name="gallery">
+                            <value>Gallery</value>
+                        </result>
+                        <result diffgr:id="result27" msdata:rowOrder="26" diffgr:hasChanges="inserted" name="answer_send">
+                            <value>Your answer was been sent.</value>
+                        </result>
+                        <result diffgr:id="result28" msdata:rowOrder="27" diffgr:hasChanges="inserted" name="answer_subject">
+                            <value>Answer sent by your application</value>
+                        </result>
+                        <result diffgr:id="result29" msdata:rowOrder="28" diffgr:hasChanges="inserted" name="answer_body">
+                            <value>Hi,&lt;br&gt;
+                                [EMAIL] asks this question:
+                                &lt;br&gt;&lt;br&gt;
+                                [QUESTION]
+                            </value>
+                        </result>
+                        <result diffgr:id="result30" msdata:rowOrder="29" diffgr:hasChanges="inserted" name="book_send">
+                            <value>Your book was been sent.We will confirm you at soon as possible.</value>
+                        </result>
+                        <result diffgr:id="result31" msdata:rowOrder="30" diffgr:hasChanges="inserted" name="book_subject">
+                            <value>Book sent by your application</value>
+                        </result>
+                        <result diffgr:id="result32" msdata:rowOrder="31" diffgr:hasChanges="inserted" name="book_body">
+                            <value>Hi,&lt;br&gt;
+                                [PHONE] would make a book:
+                                &lt;br&gt;Date: [DATE]
+                                &lt;br&gt;Time: [TIME]
+                                &lt;br&gt;Nb People: [NB]
+                                &lt;br&gt;&lt;br&gt;
+                                Please confirm this book.
+                            </value>
+                        </result>
+                    </root>
+                </diffgr:diffgram>
+            </PlaceApplicationGetTraductionFileResult>
+        </PlaceApplicationGetTraductionFileResponse>
+    </soap:Body>
+</soap:Envelope>

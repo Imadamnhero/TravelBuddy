@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  Fun Spot App
+yehi hai
+  Created by Pradeep Sundriyal on 03/10/12.
+  Villeure:  "3db1bef0-2550-4271-af77-42240fbbed8e"
+ Malraux "147852369987456ASXDEFFRTGDSZHHHHH123";
+ P'tits molières : b226f509-a88a-40e9-9d4e-1487fe1789a5
+ Tautavel :808850f8-d454-408a-b523-88b09c41b8a9
+ TheatreBlancs : 6793cd7c-252e-47e2-a96c-6136a29fbfc2
+ Marnes b3e28f2e-c30c-4831-9723-40a3ecd18626
+*/
+
+"NavigationBar_Title" = "Le Carré 30";
+"NetworkAlert" = "S'il vous plaît vérifier votre connexion Internet";
+"NoRecord"  = "No record found";
+"setting_accessCalendar_FR" = "Merci d'autoriser cette application : Réglages > Confidentialité > Calendriers";
+"setting_accessCalendar_EN" = "Please authorize this app: Settings > Privacy > Calendars";
+
+//"ApplicationCode" = "3db1bef0-2550-4271-af77-42240fbbed8e"; //Level 2
+//"ApplicationCode" = "147852369987456ASXDEFFRTGDSZHHHHH123"; //Level 0
+//"ApplicationCode" = "b226f509-a88a-40e9-9d4e-1487fe1789a5"; //Level 1
+
+//"b226f509-a88a-40e9-9d4e-1487fe1789a5";
+//  "ApplicationCode" = "b226f509-a88a-40e9-9d4e-1487fe1789a5"; //Ptits Molières
+
+//"808850f8-d454-408a-b523-88b09c41b8a9";
+//b226f509-a88a-40e9-9d4e-1487fe1789a5
+
+"ApplicationCode" = "b06c9176c-12b3-452c-870e-ff335197209b"; //
+//"ApplicationCode" = "b226f509-a88a-40e9-9d4e-1487fe1789a5";
+
+
+
+
+

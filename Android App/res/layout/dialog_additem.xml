@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_frame_dialog"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/TextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:text="@string/tv_packing_additem" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/bg_edittext"
+        android:hint="@string/hint_type_newitem"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        style="@style/ButtonGreenTravel"
+        android:layout_width="@dimen/width_of_button"
+        android:layout_height="@dimen/height_of_smallbutton"
+        android:layout_alignRight="@id/editText1"
+        android:layout_below="@id/editText1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_orange"
+        android:drawableLeft="@drawable/icon_cancel"
+        android:drawablePadding="10dp"
+        android:text="@string/btn_cancel"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_right"
+        style="@style/ButtonGreenTravel"
+        android:layout_width="@dimen/width_of_button"
+        android:layout_height="@dimen/height_of_smallbutton"
+        android:layout_below="@id/editText1"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/btn_cancel"
+        android:background="@drawable/btn_green"
+        android:drawableLeft="@drawable/icon_save"
+        android:drawablePadding="10dp"
+        android:text="@string/btn_add"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="5dp"
+        android:layout_below="@id/btn_cancel"
+        android:layout_toRightOf="@id/editText1" />
+
+</RelativeLayout>

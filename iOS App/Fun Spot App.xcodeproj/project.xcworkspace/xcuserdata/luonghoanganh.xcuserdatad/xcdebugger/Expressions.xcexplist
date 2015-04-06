@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[CreateSlideShowVC collectionView:didSelectItemAtIndexPath:]:CreateSlideShowVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__32+[TripDetailVC SyncCategoryData]_block_invoke916:TripDetailVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "jsonString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate application:didFinishLaunchingWithOptions:]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "remoteNotif">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[EditListVC getPackingList]:EditListVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainArray">
+            </PersistentString>
+            <PersistentString
+               value = "packingId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NoteVC SyncNoteData:]:NoteVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ExpenseVC getListColor]:ExpenseVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NoteVC tableView:commitEditingStyle:forRowAtIndexPath:]:NoteVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AsynImageButton loadIMageFromImage:]:AsynImageButton.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageData.size.height">
+            </PersistentString>
+            <PersistentString
+               value = "imageData.size.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NoteVC getAllNote]:NoteVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ExpenseVC drawSpent]:ExpenseVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[TripDetailVC SyncCategoryData]:TripDetailVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "objVersion">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PackingVC viewWillAppear:]:PackingVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SlideShowVC loadVideoSlideShow]:SlideShowVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ConfirmInvitationVC sendReplyInvitation:]:ConfirmInvitationVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_params">
+            </PersistentString>
+            <PersistentString
+               value = "dictInforUser">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AddExpenseVC getCategoryList]:AddExpenseVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[TripDetailVC syncPhoto]:TripDetailVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[PackingVC tableView:didSelectRowAtIndexPath:]:PackingVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ImageGalleryViewController scrollViewDidScroll:]:ImageGalleryViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "SCREEN_HEIGHT">
+            </PersistentString>
+            <PersistentString
+               value = "mainArray">
+            </PersistentString>
+            <PersistentString
+               value = "gallImage.size.width">
+            </PersistentString>
+            <PersistentString
+               value = "gallImage.size.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__25+[TripDetailVC syncPhoto]_block_invoke798:TripDetailVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ReceiptVC getImage]:ReceiptVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CreateSlideShowVC mediaPicker:didPickMediaItems:]:CreateSlideShowVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ImageGalleryViewController btnYesClick:]:ImageGalleryViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.pageControl.currentPage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AbstractActionSheetPicker configureAndPresentActionSheetForView:]:AbstractActionSheetPicker.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.viewSize.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SlideShowVC btnSendFacebookCreateSlideClick:]:SlideShowVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NoteVC configureCell:atIndexPath:]:NoteVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainArray">
+            </PersistentString>
+            <PersistentString
+               value = "cell.lbdescrsiption">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__57-[NoteVC tableView:commitEditingStyle:forRowAtIndexPath:]_block_invoke:NoteVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "__23-[NoteVC SyncNoteData:]_block_invoke436:NoteVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "__36+[TripDetailVC SyncPackingTitleData]_block_invoke653:TripDetailVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[EditListVC btnSaveClick:]:EditListVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainArrayUpdated">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[TripDetailVC SyncPackingTitleData]:TripDetailVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "packingTitleArrayChange">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[EditListVC tableView:commitEditingStyle:forRowAtIndexPath:]:EditListVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AddExpenseVC PreviousCategoryClick:]:AddExpenseVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NoteVC getUserInfor]:NoteVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PackingVC getPackingItem:]:PackingVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainArray">
+            </PersistentString>
+            <PersistentString
+               value = "packingObj.serverId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CreateSlideShowVC updateTheMediaColledtionsItems:]:CreateSlideShowVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AddExpenseVC btnSaveClick:]:AddExpenseVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SlideShowVC btnCreateClick:]:SlideShowVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__34-[SlideShowVC uploadVideoToServer]_block_invoke:SlideShowVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CreateSlideShowVC createSlideShow:]:CreateSlideShowVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "urlAudio">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate application:didRegisterForRemoteNotificationsWithDeviceToken:]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.deviceToken">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__41-[CreateSlideShowVC uploadVideoToServer:]_block_invoke:CreateSlideShowVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "strURLVideoSaved">
+            </PersistentString>
+            <PersistentString
+               value = "dict">
+            </PersistentString>
+            <PersistentString
+               value = "strPhotoId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ExpenseVC viewWillAppear:]:ExpenseVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[LoginControllerVC afterLogin]:LoginControllerVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SlideShowVC btnDeleteSlideshowClick:]:SlideShowVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AbstractActionSheetPicker presentPickerForView:]:AbstractActionSheetPicker.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.presentFromRect">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_of_row"
+    android:background="@drawable/bg_row_gradient"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <RadioButton
+        android:id="@+id/radio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:button="@drawable/radio_button_travel"
+        android:paddingLeft="@dimen/padding_text_radiobutton"
+        android:text="Beach" />
+
+</RelativeLayout>

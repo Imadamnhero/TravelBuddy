@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ChooseThemeListViewController tableView:numberOfRowsInSection:]:ChooseThemeListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.arrApplicationPlaces">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[IntroViewController viewDidLoad]:IntroViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "delegate.currentCountry">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UsePointVC onloadUsePointCommand:]:UsePointVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "dictLoyalty">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ChooseApplicationListViewController tableView:cellForRowAtIndexPath:]:ChooseApplicationListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.arrApplicationPlaces">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GiftListViewController validateCommand]:GiftListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.currentCountry">
+            </PersistentString>
+            <PersistentString
+               value = "[userDefault objectForKey:@&quot;AppCode&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RegisterNewUserVC viewDidLoad]:RegisterNewUserVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "btnCancel.titleLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[IntroViewController onMainDataload:]:IntroViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "btnDone.titleLabel.text">
+            </PersistentString>
+            <PersistentString
+               value = "btnCancel.titleLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[IntroViewController btnSelectCountryClick:]:IntroViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "delegate.funSpotDict">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LeftTabBarViewController createButtons]:LeftTabBarViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "arrTitle">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

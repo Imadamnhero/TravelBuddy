@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="facebook">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../Android Library/Facebook SDK/facebook-android-sdk/facebook" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../Android Library/Facebook SDK/facebook-android-sdk/facebook/gen" />
+      <root url="file://$PROJECT_DIR$/../../../Android Library/Facebook SDK/facebook-android-sdk/facebook/src" />
+    </SOURCES>
+  </library>
+</component>

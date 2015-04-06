@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/title_trip" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_frame"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tv1"
+            style="@style/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:text="@string/tv_start" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/tv1"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv1"
+            android:layout_below="@id/tv1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/tv_packing_start"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/text_white_color" />
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/ButtonGreenTravel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tv2"
+            android:layout_toLeftOf="@+id/tv3"
+            android:drawableLeft="@drawable/icon_list"
+            android:text="@string/btn_packing_custom"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/ButtonGreenTravel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv2"
+            android:layout_toRightOf="@id/tv3"
+            android:drawableLeft="@drawable/icon_list"
+            android:text="@string/btn_packing_new"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/btn2"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:text="or"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_green_color"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

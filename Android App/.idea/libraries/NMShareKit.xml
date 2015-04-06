@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="NMShareKit">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../NMShareKit/NMShareKit" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../NMShareKit/NMShareKit/gen" />
+      <root url="file://$PROJECT_DIR$/../../../NMShareKit/NMShareKit/src" />
+    </SOURCES>
+  </library>
+</component>

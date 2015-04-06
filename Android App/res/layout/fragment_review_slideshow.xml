@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBED" >
+
+    <include
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_trip" />
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title_bar" >
+
+        <!-- <fragment -->
+        <!-- android:id="@+id/map" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="145dp" -->
+        <!-- class="com.google.android.gms.maps.SupportMapFragment" /> -->
+
+        <TextView
+            android:id="@+id/tv_no_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:singleLine="true"
+            android:text="You don't have any SlideShow"
+            android:visibility="gone"
+            android:textColor="#000" />
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="65dp"
+            android:horizontalSpacing="5dp"
+            android:numColumns="3"
+            android:verticalSpacing="5dp" >
+        </GridView>
+    </RelativeLayout>
+
+</RelativeLayout>

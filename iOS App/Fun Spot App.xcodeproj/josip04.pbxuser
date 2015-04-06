@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	24AE330C14FA890D006D209B /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C7A60707152DD9E600A4CBF0 /* Restaurant app */;
+		activeTarget = 24AE331414FA890D006D209B /* Restaurant app */;
+		codeSenseManager = C7A6071A152DD9F600A4CBF0 /* Code sense */;
+		executables = (
+			C7A60707152DD9E600A4CBF0 /* Restaurant app */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 355326438;
+			PBXWorkspaceStateSaveDate = 355326438;
+		};
+		sourceControlManager = C7A60719152DD9F600A4CBF0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	24AE331414FA890D006D209B /* Restaurant app */ = {
+		activeExec = 0;
+		executables = (
+			C7A60707152DD9E600A4CBF0 /* Restaurant app */,
+		);
+	};
+	C7A60707152DD9E600A4CBF0 /* Restaurant app */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Restaurant app";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	C7A60719152DD9F600A4CBF0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C7A6071A152DD9F600A4CBF0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

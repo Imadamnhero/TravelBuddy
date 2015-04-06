@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@drawable/bg_title_bar" >
+
+        <TextView
+            android:id="@+id/title_trip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/title_btn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_menu" />
+
+        <ImageView
+            android:id="@+id/btn_cross"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:scaleType="center"
+            android:src="@drawable/btn_cross" />
+
+        <ImageView
+            android:id="@+id/btn_tick"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/btn_cross"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:scaleType="center"
+            android:src="@drawable/btn_tick" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_addtrip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_frame"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/tv_tripname" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/autocomplete"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_edittext"
+                        android:hint="@string/hint_enter_city"
+                        android:lines="1"
+                        android:paddingLeft="10dp" />
+
+                    <!-- <ImageView -->
+                    <!-- android:id="@+id/btn_map" -->
+                    <!-- android:layout_width="wrap_content" -->
+                    <!-- android:layout_height="wrap_content" -->
+                    <!-- android:layout_alignParentRight="true" -->
+                    <!-- android:layout_centerVertical="true" -->
+                    <!-- android:paddingRight="8dp" -->
+                    <!-- android:src="@drawable/btn_map" /> -->
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- <LinearLayout -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_marginLeft="5dp" -->
+            <!-- android:layout_marginRight="5dp" -->
+            <!-- android:layout_marginTop="10dp" -->
+            <!-- android:background="@drawable/bg_frame" -->
+            <!-- android:orientation="vertical" -->
+            <!-- android:padding="5dp" > -->
+
+
+            <!-- <TextView -->
+            <!-- style="@style/TextViewTitle" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:padding="5dp" -->
+            <!-- android:text="@string/tv_enter_name" /> -->
+
+
+            <!-- <EditText -->
+            <!-- android:id="@+id/et_name" -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:background="@drawable/bg_edittext" -->
+            <!-- android:hint="@string/hint_enter_name" -->
+            <!-- android:paddingLeft="10dp" /> -->
+            <!-- </LinearLayout> -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_frame"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/tv_tripdate" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/img_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:padding="5dp"
+                        android:src="@drawable/date_image" />
+
+                    <EditText
+                        android:id="@+id/from_d"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/img_date"
+                        android:background="@drawable/bg_edittext"
+                        android:drawableRight="@drawable/from_date"
+                        android:editable="false"
+                        android:hint="@string/hint_enter_date"
+                        android:paddingLeft="10dp" />
+
+                    <EditText
+                        android:id="@+id/to_d"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/img_date"
+                        android:background="@drawable/bg_edittext"
+                        android:drawableRight="@drawable/to_date"
+                        android:editable="false"
+                        android:hint="@string/hint_enter_date"
+                        android:paddingRight="10dp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_frame"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/tv_mybudget" />
+
+                <EditText
+                    android:id="@+id/et1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="@string/hint_enter_budget"
+                    android:inputType="number"
+                    android:paddingLeft="10dp" />
+            </LinearLayout>
+
+            <!-- <RelativeLayout -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="match_parent" -->
+            <!-- android:layout_marginLeft="5dp" -->
+            <!-- android:layout_marginRight="5dp" -->
+            <!-- android:layout_marginTop="10dp" -->
+            <!-- android:background="@drawable/bg_frame" > -->
+
+
+            <!-- <Button -->
+            <!-- android:id="@+id/btn2" -->
+            <!-- style="@style/ButtonGreenTravel" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="@dimen/height_of_button" -->
+            <!-- android:layout_alignParentRight="true" -->
+            <!-- android:layout_alignParentTop="true" -->
+            <!-- android:layout_margin="5dp" -->
+            <!-- android:drawableLeft="@drawable/icon_btn_arrow" -->
+            <!-- android:text="@string/btn_invite" -->
+            <!-- android:textAppearance="?android:attr/textAppearanceSmall" /> -->
+
+
+            <!-- <TextView -->
+            <!-- android:id="@+id/tv2" -->
+            <!-- style="@style/TextViewTitle" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_alignParentLeft="true" -->
+            <!-- android:layout_alignParentTop="true" -->
+            <!-- android:padding="10dp" -->
+            <!-- android:text="@string/tv_group" /> -->
+
+
+            <!-- <LinearLayout -->
+            <!-- android:id="@+id/list_group" -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_below="@+id/tv2" -->
+            <!-- android:layout_centerHorizontal="true" -->
+            <!-- android:layout_marginTop="5dp" -->
+            <!-- android:orientation="vertical" /> -->
+            <!-- </RelativeLayout> -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

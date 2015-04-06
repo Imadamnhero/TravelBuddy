@@ -1,0 +1,36 @@
+    //
+// Prefix header for all source files of the 'Restaurant app' target in the 'Restaurant app' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "Common.h"
+    #import "ANIConstants.h"
+    #import "MBProgressHUD.h"
+    #import "ASIFormDataRequest.h"
+    #import "SBJson4Parser.h"
+    #import "IMSSqliteManager.h"
+    #import "Reachability.h"
+    #import "UIColor-Expanded.h"
+#endif
+
+#define USER_DEFAULT [NSUserDefaults standardUserDefaults]
+//#define SERVER_LINK @"http://sdc.ud.edu.vn/sdcdevelopment/travelbuddy"
+//#define SERVER_LINK @"http://sdc.eduportal.vn/sdcdevelopment/travelbuddy"
+#define SERVER_LINK @"http://tbuddy.arvixevps.com:83"
+#define SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
+
+#define checkiOS8 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+#define IS_IPAD [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad
+
+#define TagImage 10000
+#define TagImageClickSync 100000
+#define TagActIn 1000000
+#define ScreenHeight 568

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Root</key>
+	<dict>
+		<key>Menu</key>
+		<dict>
+			<key>introImagesNames</key>
+			<array>
+				<string>intro1.png</string>
+				<string>intro2.png</string>
+				<string>intro3.png</string>
+			</array>
+			<key>menuItems</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Pizza menu</string>
+					<key>overview</key>
+					<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+					<key>imageName</key>
+					<string>img-menu1.png</string>
+					<key>description</key>
+					<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut molestie velit. Nunc suscipit, justo eget blandit iaculis, sem libero eleifend erat, nec placerat risus magna id odio. Suspendisse a purus justo, vel fringilla velit. Nam nibh mi, rutrum ac varius ac, mollis at mauris. Suspendisse a purus justo, vel fringilla velit. Nam nibh mi, rutrum ac varius ac, mollis at mauris.</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Mexican menu</string>
+					<key>overview</key>
+					<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+					<key>imageName</key>
+					<string>img-menu2.png</string>
+					<key>description</key>
+					<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut molestie velit. Nunc suscipit, justo eget blandit iaculis, sem libero eleifend erat, nec placerat risus magna id odio. Suspendisse a purus justo, vel fringilla velit. Nam nibh mi, rutrum ac varius ac, mollis at mauris.</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Sushi menu</string>
+					<key>overview</key>
+					<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+					<key>imageName</key>
+					<string>img-menu3.png</string>
+					<key>description</key>
+					<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut molestie velit. Nunc suscipit, justo eget blandit iaculis, sem libero eleifend erat, nec placerat risus magna id odio. Suspendisse a purus justo, vel fringilla velit. Nam nibh mi, rutrum ac varius ac, mollis at mauris.</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Pizza menu</string>
+					<key>overview</key>
+					<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+					<key>imageName</key>
+					<string>img-menu1.png</string>
+					<key>description</key>
+					<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut molestie velit. Nunc suscipit, justo eget blandit iaculis, sem libero eleifend erat, nec placerat risus magna id odio. Suspendisse a purus justo, vel fringilla velit. Nam nibh mi, rutrum ac varius ac, mollis at mauris. Suspendisse a purus justo, vel fringilla velit. Nam nibh mi, rutrum ac varius ac, mollis at mauris.</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Pizza menu</string>
+					<key>overview</key>
+					<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+					<key>imageName</key>
+					<string>img-menu1.png</string>
+					<key>description</key>
+					<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut molestie velit. Nunc suscipit, justo eget blandit iaculis, sem libero eleifend erat, nec placerat risus magna id odio. Suspendisse a purus justo, vel fringilla velit. Nam nibh mi, rutrum ac varius ac, mollis at mauris. Suspendisse a purus justo, vel fringilla velit. Nam nibh mi, rutrum ac varius ac, mollis at mauris.</string>
+				</dict>
+			</array>
+		</dict>
+		<key>News</key>
+		<dict>
+			<key>newsItems</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>News one</string>
+					<key>overview</key>
+					<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+					<key>imageName</key>
+					<string>news-one.png</string>
+					<key>description</key>
+					<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut molestie velit. Nunc suscipit, justo eget blandit iaculis, sem libero eleifend erat, nec placerat risus magna id odio. Suspendisse a purus justo, vel fringilla velit. Nam nibh mi, rutrum ac varius ac, mollis at mauris.</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>News two</string>
+					<key>overview</key>
+					<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+					<key>imageName</key>
+					<string>news-one.png</string>
+					<key>description</key>
+					<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut molestie velit. Nunc suscipit, justo eget blandit iaculis, sem libero eleifend erat, nec placerat risus magna id odio. Suspendisse a purus justo, vel fringilla velit. Nam nibh mi, rutrum ac varius ac, mollis at mauris.</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>News three</string>
+					<key>overview</key>
+					<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+					<key>imageName</key>
+					<string>news-one.png</string>
+					<key>description</key>
+					<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut molestie velit. Nunc suscipit, justo eget blandit iaculis, sem libero eleifend erat, nec placerat risus magna id odio. Suspendisse a purus justo, vel fringilla velit. Nam nibh mi, rutrum ac varius ac, mollis at mauris.</string>
+				</dict>
+			</array>
+		</dict>
+		<key>Reservation</key>
+		<dict>
+			<key>description</key>
+			<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+			<key>phoneNumber</key>
+			<string>+000000000</string>
+		</dict>
+		<key>Location</key>
+		<dict>
+			<key>locationItems</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Restaurant one</string>
+					<key>latitude</key>
+					<real>48.855172</real>
+					<key>longitude</key>
+					<real>2.327943</real>
+					<key>address</key>
+					<string>Address, City</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Restaurant two</string>
+					<key>latitude</key>
+					<real>48.859718</real>
+					<key>longitude</key>
+					<real>2.335324</real>
+					<key>address</key>
+					<string>Address, City</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

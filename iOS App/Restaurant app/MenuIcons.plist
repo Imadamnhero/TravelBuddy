@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>ic_menu</string>
+	<string>menu_home</string>
+	<string>menu_acc</string>
+	<string>menu_addphoto</string>
+	<string>menu_addphoto</string>
+	<string>menu_notes</string>
+	<string>menu_expenses</string>
+	<string>menu_packing</string>
+	<string>menu_alert</string>
+	<string>menu_slideshow</string>
+	<string>menu_group</string>
+	<string>menu_receipts</string>
+	<string>menu_logout</string>
+	<string>menu_Site</string>
+	<string>menu_Site</string>
+	<string>menu_Choose</string>
+</array>
+</plist>
